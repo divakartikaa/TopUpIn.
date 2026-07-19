@@ -1,0 +1,24 @@
+# Laragon & PHP default gitignore
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Temporary uploads / user files
+uploads/bukti/*
+!uploads/bukti/.gitkeep
+
+# System generated or backup files
+*.log
+*.tmp
+*.bak
+
+# Bot Telegram (Node.js)
+bot/node_modules/
+bot/data/bot.lock
+bot/.env
+# bot/.env.example tetap di-commit (template tanpa nilai sensitif)
